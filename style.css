@@ -1,0 +1,92 @@
+html {
+	background: url("background.jpg") no-repeat;
+	background-size: cover;
+	min-height: 100%
+}
+body {
+	background-color: transparent
+}
+a {
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0
+}
+a:link {
+	color: #265301
+}
+a:visited {
+	color: #437A16
+}
+a:focus {
+	border-bottom: 1px solid;
+	background: #BAE498
+}
+a:hover {
+	background: #CDFEAA
+}
+a:active {
+	background: #265301;
+	color: #CDFEAA
+}
+a[href*="http"] {
+	background: url('icon.png') no-repeat 100% 0;
+	background-size: 16px 16px;
+	padding-right: 20px
+}
+#registration-form {
+	max-width: 900px;
+	margin: 120px auto
+}
+#registration-form .image {
+	float: left;
+	background-image: url("desk.jpg");
+	height: 700px;
+	width: 50%;
+	background-size: cover;
+	background-position: 25%
+}
+#registration-form .frm {
+	float: right;
+	height: 700px;
+	width: 50%;
+	min-width: 250px;
+	padding: 0 35px;
+	background-size: 100% 100%;
+	background-color: white
+}
+#registration-form h1 {
+	margin-top: 30px;
+	margin-bottom: 20px
+}
+#registration-form .form-control {
+	width: 90%;
+	padding: 12px 20px;
+	height: auto
+}
+@media screen and (max-width: 700px) {
+	#registration-form .image {
+		width: 50%;
+		background-position: 70%
+	}
+	#registration-form .frm {
+		width: 80%
+	}
+	#registration-form .form-control {
+		width: 90%
+	}
+}
+@media screen and (max-width: 500px) {
+	#registration-form .image {
+		display: none
+	}
+	#registration-form .frm {
+		width: 100%
+	}
+	#registration-form h1 {
+		text-align: center
+	}
+	#registration-form .btn {
+		width: 100%;
+		margin-top: 20px
+	}
+}
