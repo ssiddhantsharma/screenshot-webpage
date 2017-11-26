@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function my() {
+            var usertext = document.f1.t1.value.toLowerCase();
+            var utext = document.f1.w1.value;
+            var ustext = document.f1.e1.value;
+            window.open("https://image.thum.io/get/width/" + utext + "/crop/" + ustext + "/allowJPG" + "/http://" + usertext);
+        }
+
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> WEBSITE SCREENSHOT | SIDDHANT SHARMA</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+    <link rel="icon" href="favicon.png" sizes="64x64" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="Description" content="This website works with thum.io API to create website screenshots">
+    <meta name="Keywords" content="website screenshots, siddhant sharma, thum.io, screenshot, thum.io API, siddhant, sharma">
+</head>
+
+<body>
+    <div class="container" id="registration-form">
+        <div class="image"></div>
+        <div class="frm">
+            <br>
+            <br>
+            <h2><b><center> WEBSITE SCREENSHOT</b></center></h2>
+            <Fieldset>
+                <Legend> <i><center><h3> <mark>USING <a data-balloon-length="small" data-balloon="thum.io!" data-balloon-pos="down" data-balloon-visible  href="https://www.thum.io/" target="_blank"> THUM.IO API </a> </mark></</i>
+                    </h3>
+                    </center>
+                </Legend>
+                <br>
+                <form name="f1">
+                    <div class="form-group">
+                        <label for="username" data-balloon-length="medium" data-balloon="[900px] Naah, don't do like this!" data-balloon-pos="right"> <i> <mark> HEIGHT (in pixels): </i> </mark>
+                        </label>
+                        <br>
+                        <br>
+                        <input type="number" name="w1" class="form-control" id="username" placeholder="* Enter height like 300 - 900" maxlength="4" required="required" autofocus="autofocus" autocomplete="on" />
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="email" data-balloon-length="medium" data-balloon="[700px] Naah, don't do like this!" data-balloon-pos="right"> <i> <mark> WIDTH (in pixels): </i> </mark>
+                        </label>
+                        <br>
+                        <br>
+                        <input type="number" name="e1" class="form-control" id="email" placeholder="* Enter width like 300 - 700" required="required" autocomplete="on" />
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="email" data-balloon-length="large" data-balloon-visible data-balloon="Please don't include http:// in the url,I will take care of that." data-balloon-pos="right"> <i> <mark> WEBSITE URL: </i> </mark>
+                        </label>
+                        <br>
+                        <br> </mark>
+                        <input type="text" name="t1" class="form-control" id="email" placeholder="* Url like www.google.com" required="required" formtarget="_self" autocomplete="on" onChange="my()" />
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-lg fa fa-paper-plane">&nbsp; Submit Values!</button>
+                    </div>
+                </form>
+            </Fieldset>
+        </div>
+    </div>
+</body>
+
+</html>
