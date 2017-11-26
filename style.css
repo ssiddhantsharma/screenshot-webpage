@@ -40,14 +40,14 @@ a[href*="http"] {
 #registration-form .image {
 	float: left;
 	background-image: url("desk.jpg");
-	height: 710px;
+	height: 740px;
 	width: 50%;
 	background-size: cover;
 	background-position: 25%
 }
 #registration-form .frm {
 	float: right;
-	height: 710px;
+	height: 740px;
 	width: 50%;
 	min-width: 250px;
 	padding: 0 35px;
