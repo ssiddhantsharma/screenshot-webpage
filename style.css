@@ -4,7 +4,8 @@ html {
 	min-height: 100%
 }
 body {
-	background-color: transparent
+	background-color: #2980b9;
+	  overflow-y: hidden;
 }
 a {
 	outline: none;
